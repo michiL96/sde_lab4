@@ -21,7 +21,7 @@ collectDefaultMetrics({ timeout: 3000 });
 
 app.get('/', function (req, res) {
   const end = histogram.startTimer();
-  res.send('Hello World prometheus!');
+  res.send('Hello World SDE!');
   end({api_name: 'index', method: req.method, 'status_code': 200 });
 });
 
