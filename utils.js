@@ -3,6 +3,6 @@ module.exports = {
         return x * y;
     },
     sum: (x, y) => {
-        return 4;
+        return x + y;
     }
 }
